@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Logo and Navbar Toggle -->
         <a class="navbar-brand" href="{{ route('dashboard') }}">
-            <strong><span>{{config('app.name')}}</span></strong> <img src="{{ asset('images/logo.png') }}" alt="Logo" class="d-inline-block align-top" height="30">
+            <img src="{{ asset('images/logo.png') }}" alt="Logo" class="d-inline-block align-top" height="30"> <strong><span>{{config('app.name')}}</span></strong>
         </a>
 
         <!-- Navbar Toggle Button for Mobile View -->
